@@ -39,12 +39,12 @@ while True:
 
   if(len(code)>0 and code[0]=="LED2"):
 	print("button 2 detected")
-    if(toggle2 == False):
-        GPIO.output(12,GPIO.LOW)
-        toggle2 = True
-    elif(toggle2 == True):
-        GPIO.output(12,GPIO.LOW)
-        toggle2 = False
+	if(toggle2 == False):
+		GPIO.output(12,GPIO.LOW)
+		toggle2 = True
+	elif(toggle2 == True):
+		GPIO.output(12,GPIO.LOW)
+		toggle2 = False
 
 
 	
